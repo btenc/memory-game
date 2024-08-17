@@ -93,7 +93,7 @@ function App() {
         <GameBoard cards={cards} handleCardClick={handleCardClick} />
       </div>
       {gameOver && <GameOverPopup resetGame={resetGame} />}
-      {win && <WinPopup resetGame={resetGame} />} {/* Display win screen */}
+      {win && <WinPopup resetGame={resetGame} />}
       <button className="refresh-button" onClick={resetGame}>
         Refresh
       </button>
