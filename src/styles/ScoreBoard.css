@@ -1,0 +1,9 @@
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  width: 100%;
+  max-width: 600px;
+  margin: 10px 0 20px 0; /* Reduce top margin to bring scores closer to the header */
+  text-align: center;
+}

@@ -1,0 +1,33 @@
+.win-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.win-popup h2 {
+  margin: 0 0 10px;
+}
+
+.popup-content button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff; /* Match the color with the refresh button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s cubic-bezier(0.6, -0.28, 0.74, 0.05),
+    transform 0.3s cubic-bezier(0.6, -0.28, 0.74, 0.05); /* Same transition as cards */
+}
+
+.popup-content button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}

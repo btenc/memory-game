@@ -1,0 +1,33 @@
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.GameBoard.disabled {
+  pointer-events: none; /* Disable pointer events when game over */
+  opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+  .game-board {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .game-board {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    max-width: 50%;
+  }
+}
