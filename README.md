@@ -1,7 +1,11 @@
 # PokeMemory Game
 
+Live demo: https://memory-game-9nl.pages.dev/
+
 Don't click on the same card twice. Reach 12 points to win.
 
-Memory Card project for the Odin Project.
+## Built using:
 
-Built using React and powered by https://pokeapi.co/
+- React
+
+- Pokeapi: https://pokeapi.co/
