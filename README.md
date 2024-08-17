@@ -6,6 +6,6 @@ Don't click on the same card twice. Reach 12 points to win.
 
 ## Built using:
 
-- React
+- React & Vite
 
 - Pokeapi: https://pokeapi.co/
